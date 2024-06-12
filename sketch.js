@@ -32,7 +32,7 @@ function setup() {
 
 function draw() {
     background(0);
-    mostraBolinha();
+    yasmartins ();
     movimentaBolinha();
     verificaColisaoBorda();
     mostraRaquete(xRaquete, yRaquete);
@@ -44,7 +44,7 @@ function draw() {
     incluiPlacar() 
     marcaPonto();
 }
-function mostraBolinha() {
+function yasmartins() {
   circle(xBolinha, yBolinha, diametro);
 }
 
